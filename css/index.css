@@ -252,7 +252,7 @@ table td {
   padding-top: 1.4rem;
   background: #f6f8fa;
   color: #90a4ae;
-  font-size: 16px;
+  font-size: article-font-size;
   line-height: 20px;
 }
 figure.highlight {
@@ -273,7 +273,7 @@ blockquote {
   background: rgba(27,31,35,0.05);
   color: #515151;
   word-wrap: break-word;
-  font-size: 16px;
+  font-size: article-font-size;
 }
 .article-container pre code {
   padding: 0;
@@ -1515,6 +1515,7 @@ footer.is-mobile {
 }
 #post-content {
   margin-bottom: 1rem;
+  font-size: 20px;
 }
 a {
   color: #858585;
@@ -1860,7 +1861,7 @@ img:hover {
 #sidebar .sidebar-toc__title {
   padding-right: 0.5rem;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
 }
 #sidebar .sidebar-toc .toc-link {
   display: block;
@@ -1883,6 +1884,7 @@ img:hover {
   margin-top: -0.3rem;
   padding-left: 0.6rem;
   color: #00c4b6;
+  font-size: 16px;
 }
 #sidebar .sidebar-toc__progress .progress-notice {
   margin-right: 0.4rem;
@@ -1895,6 +1897,9 @@ img:hover {
   width: 0;
   height: 1px;
   background: #00c4b6;
+}
+#sidebar .sidebar-toc__content {
+  font-size: 16px;
 }
 .search-dialog {
   position: fixed;
